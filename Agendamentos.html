@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<section>
+		
+	<nav id="INC"> 
+		<a class="a-menu" href="index.html">Início</a>
+	    <a class="a-menu" href="index.html#Prom">Promoções</a>
+	    <a class="a-menu" href="index.html#Enco">Encomendas</a>
+	    <a class="a-menu" href="index.html#Curs">Cursos</a>
+	</nav>
+
+	<header> 
+		<img src="img/banner.jfif" alt="Benner contendo vários doces"/> 
+	</header>
+
+ <section id="pag-enc">
+	          <h1>Encomendas</h1>
+
+
+
+	          <form name="" method="" action="">
+	     	        <label for="nome" >Nome:</label>
+	     	        <input id="nome" type="text" name="Nome" size="80" placeholder="Insira o seu nome" required /><br/>
+
+	     	        <label for="email">E-mail:</label>
+	     	        <input id="email" type="email" name="email" size="80" placeholder="nomeusuario@gmail.com" />
+
+	     	        <label for="nivel">Produto</label>
+	     	        <select id="nivel" name="nivel">
+	     		    <option value="Selecione" >Selecione</option>
+	     		    <option value="Creme Belga" >Creme Belga</option>
+	     		    <option value="Brigadeiro" >Brigadeiro</option>
+	     		    <option value="Prestígio Cremos" >Prestígio Cremoso</option>
+	     		    <option value="Casadinho" >Casadinho</option>
+	     		    <option value="Doce de Leite" >Doce de Leite.</option>
+	     		    <option value="Beijinho" >Beijinho</option>
+	     		    <option value="Brigadeiro com Limão" >Brigadeiro com Limão</option>
+	     		    <option value="Bicho de Pé" >Bicho de Pé</option>
+	     	        </select><br/>
+
+	     	        <label>Quantidade</label>
+	     	        <input id="quantidade" type="number" name="quantidade" placeholder="No máximo 15 encomendas" min="0" max="15" step="1" />
+
+
+                    <fieldset>
+                    	<legend>Forma de Retirada</legend>
+	     	      <div> 
+	     	        <input  type="radio" name="gereno" value="Delivery" /> <label>Delivery</label>
+	     	      </div>
+	     	      <div> 
+	     	        <input  type="radio" name="gereno" value="Retirar no local" /> <label>Retirar no local</label>
+	     	      </div> 
+	     	        </fieldset>
+
+	     	        <label for="msg" >Comentários</label>
+	                <textarea id="msg" cols="42" rows="4" >	</textarea>
+
+	                <div id="form">
+		                <input type="submit" name="btn-encomendar" value="ENCOMENDAR" />
+		     	        <input type="reset" name="btn-apagar" value="CANCELAR" />
+	     	        </div>
+
+	     	 </section>
+	        	<footer>
+                <p> Desenvolvido por Júlia Evelyn e Paulo Moreira - 2022 </p> 
+                </footer>
+        	
+  
+
+
+
+
+</body>
+</html>
